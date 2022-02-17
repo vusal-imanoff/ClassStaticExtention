@@ -52,7 +52,7 @@ namespace StaticKeywordExtention.Class
                 int saygac = 0;
                 for (int i = 0; i < groupno.Length; i++)
                 {
-                    if (char.IsUpper(groupno[i]))
+                    if (char.IsUpper(groupno[i]) && i==0)
                     {
                         saygac++;
                     }
